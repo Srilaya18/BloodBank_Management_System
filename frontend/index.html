@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Blood Bank Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>🩸 Blood Bank Management System</h1>
+    <button onclick="logout()">Logout</button>
+</header>
+
+<section class="banner">
+    <img src="images/banner.jpg">
+</section>
+
+<section class="form-section">
+    <h2>Add Donor</h2>
+    <input id="name" placeholder="Donor Name">
+    <input id="blood" placeholder="Blood Group">
+    <input id="phone" placeholder="Phone Number">
+    <button onclick="addDonor()">Add Donor</button>
+</section>
+
+<section class="list-section">
+    <h2>Available Donors</h2>
+    <ul id="list"></ul>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
